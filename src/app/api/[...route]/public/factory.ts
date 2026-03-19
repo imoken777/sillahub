@@ -7,7 +7,7 @@ export const publicFactory = createFactory({
     app.use(
       cors({
         origin: APP_ORIGIN_URL,
-        allowMethods: ['PUT'],
+        allowMethods: ['GET', 'PUT'],
       }),
     );
   },
